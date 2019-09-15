@@ -1,0 +1,138 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.3;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+header {
+  margin-bottom: 70px;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    margin-bottom: 100px;
+  }
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+
+footer i.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 16px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.3;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  padding-left: 20px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+body {
+  padding: 40px 40px 40px 40px;
+  background-color: #674bb1;
+  color: white;
+  background-image: url(/images/bg-mobile.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(/images/bg-desktop.svg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(250px, 1fr))[2];
+        grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+}
+
+.heroImage img {
+  width: 100%;
+}
+
+.heroText {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+  .heroText {
+    padding-left: 60px;
+    line-height: 1.5;
+    text-align: left;
+  }
+}
+
+.cta {
+  background: white;
+  color: #411141;
+  border-radius: 40px;
+  font-family: "Open Sans", sans-serif;
+  -webkit-box-shadow: 8px 6px 10px #490249;
+          box-shadow: 8px 6px 10px #490249;
+}
+
+@media screen and (min-width: 1024px) {
+  .cta {
+    padding: 20px 66px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
